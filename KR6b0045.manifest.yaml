@@ -1,0 +1,90 @@
+canonical_identifier: bkk:krp/KR6b0045/v1
+canonical_location: https://kanripo.org/bkk/KR6b0045/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 過去現在因果經
+  identifiers:
+    alt_id:
+    - T03n0189
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T03/T03n0189.xml
+    old_id: T03n0189
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 聖
+  label: 聖
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6b0045_000.yaml, hash: 'sha256:7ea51db5d5d318029e973aaef4ee21b68f7696cc33ac3852907e7f72c459746b'}
+  - {seq: 1, filename: KR6b0045_001.yaml, hash: 'sha256:4f5208238a08deaf2dc1e878d3cc9b73b9d9e212c67952091b1f916c1e780799'}
+  - {seq: 2, filename: KR6b0045_002.yaml, hash: 'sha256:b0543b6a7eaba51c5028172d30c0c3c3878707be91b5d6f198faf850f877d944'}
+  - {seq: 3, filename: KR6b0045_003.yaml, hash: 'sha256:b6e95479bf0ced979e3abdac48fd82212e3ee1705b479c45af721c3126232b4a'}
+  - {seq: 4, filename: KR6b0045_004.yaml, hash: 'sha256:f5378b4d42324952749510a11d5d37cf624f29ee0078ac6af2b95e040ebb0a98'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6b0045_001.markers.yaml, hash: 'sha256:a25d0a3a3bb548de38eaaf26b28bf8d608cf28e865ee4f20cea081ffc44a8c30'}
+  - {seq: 2, role: markers, filename: assets/KR6b0045_002.markers.yaml, hash: 'sha256:499d0f498005fb2270dfd0784eebe2913e084a173cdb873943bb656d2ac250d9'}
+  - {seq: 3, role: markers, filename: assets/KR6b0045_003.markers.yaml, hash: 'sha256:b512d6d7a483b5e155e0ec4d12db998149edced81df65b50d7f093f149774c1a'}
+  - {seq: 4, role: markers, filename: assets/KR6b0045_004.markers.yaml, hash: 'sha256:045a557cd06b060db0ab2fb77094fe2314f7aa997a66f0634f56f9ce8db2b4e3'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6b0045_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 10142
+  label: 過去現在因果經卷第一
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6b0045_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 10827
+  label: 過去現在因果經卷第二
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6b0045_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 11588
+  label: 過去現在因果經卷第三
+  type: juan
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6b0045_T_004-juan-start
+    span:
+    - body
+    - 0
+    - 11004
+  label: 過去現在因果經卷第四
+  type: juan
+  level: 1
+hash: sha256:3a5068bb782fd4616bfc8f36925dda4552fb105e2de95927a1d8f2ba981454a1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6b0045/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 過去現在因果經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T03/T03n0189.xml
+    old_id: T03n0189
+hash: sha256:7ea51db5d5d318029e973aaef4ee21b68f7696cc33ac3852907e7f72c459746b
